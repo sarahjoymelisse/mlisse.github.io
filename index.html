@@ -47,12 +47,29 @@
          background: transparent;
          color: #fff;
       }
-   </style>
 
+  .css-typing {
+  text-align: left;
+  width: 50em;
+  white-space:nowrap;
+  overflow:hidden;
+
+  
+      -webkit-animation: type 2s steps(50, end) infinite;
+      animation: type  2s steps(50, end) infinite;
+      }
+
+    @keyframes type{
+        from { width: 0; }
+    }
+
+    @-webkit-keyframes type{
+        from { width: 0; }
+    }
+
+
+</style>
 </head>
-
-
-
 <body id="home">
 
 
@@ -114,6 +131,8 @@
                                 <a>Blog</a>
                                 <ul class="sub-menu">
                                     <li><a href="blog-list.html">Blog list<img src="assets/fonts/care.svg" style="height:25px;width:24px;margin-left:108px; margin-bottom:5px;"></a></li>
+
+                                    <li><a href="08Sept2020.html"><img src="assets/fonts/click.svg" style="height:25px;width:25px;margin-bottom:5px"><span style="color:#DA70D6">CSS: Tooltip</span></a></li>
 
                                     <li><a href="24April2020.html"><img src="assets/fonts/cyberskills.svg" style="height:25x;width:25px;margin-bottom:5px"> 
                                         <span style="color:red">file:///sdcard </span></a></li>
@@ -567,13 +586,25 @@
                             <div class="grid Web-Development"> 
                                 <a href="assets/images/webdevelopment/login.png" class="fancybox" data-fancybox-group="gall-1">
                                     <img src="assets/images/webdevelopment/login.png" alt class="img img-responsive">
-                                        <a href="assets/web-development/login-registration-form-transition/index.html">
+                                        <a href="assets/web-development/login-registration-form-transition/index.html" target="_blank">
                                                                        
                                     <div class="icon">
                                     <i class="ti-eye"></i>
                                 </div>
                             </a>
                             </div>
+
+                            <div class="grid Web-Development"> 
+                                <a href="assets/images/webdevelopment/tributepage.png" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="assets/images/webdevelopment/tributepage.png" alt class="img img-responsive">
+                                        <a href="assets/web-development/Tribute Page - Responsive Web Design Project/index.html" target="_blank">
+                                                                       
+                                    <div class="icon">
+                                    <i class="ti-eye"></i>
+                                </div>
+                            </a>
+                            </div>
+
                         </div>
                     </div>
                 </div> <!-- end row -->
@@ -693,6 +724,26 @@
 
 
                 <div class="row">
+                        
+
+                        <div class="col-md-4 col-sm-6 col-12 grid">
+                        <div class="blog-wrap">
+                            <div class="blog-image">
+                                <img src="assets/images/indexblog/tooltip.jpg" >
+                                <ul>
+                                    <li>08</li>
+                                    <li>Sept</li>   
+                                </ul>
+                            </div>
+                            <div class="blog-content">
+                                <h3><a href="08Sept2020.html">CSS Tooltip: They are user-triggered</a></h3>
+                                <p>You may want additional details of the technical terms listed on a..</p>
+                                <a href="08Sept2020.html">Read More <i class="ti-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div class="col-md-4 col-sm-6 col-12 grid">
                         <div class="blog-wrap">
                             <div class="blog-image">
@@ -827,6 +878,7 @@
                         </div>
 
                     </div>
+
                     <div class="col-md-6 col-sm-6 col-12">
                         <div class="footer-sub">
 
@@ -841,12 +893,9 @@
                                 <a href="https://www.instagram.com/sarahjoymelisse" target="_blank" class="links"><img src="assets/images/social/instagram.svg" style="height:26px;width:26px"> </a>
 
                                 <a href="https://m.me/00melisse" target="_blank" class="links"><img src="assets/images/social/messenger.svg" style="height:26px;width:26px"> </a>
+                
 
-
-                            <p> ≺ /≻ with <img src="assets/fonts/heart.svg"style="height:19px; width:19px"> by Sarah &copy; 2020, All rights reserved.</p>
-
-
-
+                             <p class="css-typing"> ≺ /≻ with <img src="assets/fonts/heart.svg"style="height:19px; width:19px"> by Sarah &copy; 2020, All rights reserved.
                         
                         </div>
                     </div>
