@@ -43,6 +43,22 @@
          color: #fff;
       }
 
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color:palegreen;
+  color: black;
+  text-align: center;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 </style>
 
 </head>
@@ -155,8 +171,6 @@
 A website. This information should only appear when the user has a technical term hovering over.</p></h4.5>
 
 
-
-
                                 </p> <blockquote>
                         <h5>So here's the source code I learned as I developed some project and that CSS tooltip suddenly comes up in my mind </h5>
 
@@ -188,8 +202,9 @@ A website. This information should only appear when the user has a technical ter
     Killua Zoldyck </span> 
     <code> < /span> </code> <code>< /p></code>
 
-                        </div>
 
+
+                        </div>
                             <div class="tag-share clearfix">
                                 <div class="tag">
                                     <ul>
