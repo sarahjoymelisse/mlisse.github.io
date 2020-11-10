@@ -561,8 +561,8 @@ button:focus {
     padding: 40px 16px;
     text-transform: uppercase;
   }
-  .site-header #navbar > ul .sub-menu {
-    background-color: white;
+  .site-header #navbar > ul .sub-menu { /*nav side*/
+    background-color: transparent;
     width: 250px;
     padding: 5px 12px;
     position: absolute;
@@ -588,7 +588,7 @@ button:focus {
   .site-header #navbar > ul > li .sub-menu a {
     font-size: 15px;
     font-size: 1rem;
-    color: #06163a;
+    color: white;
     display: block;
     padding: 12px 15px;
   }
@@ -907,10 +907,10 @@ button:focus {
     z-index: 1000;
   }
   .header-style-1 .navigation, .header-style-2 .navigation, .header-style-3 .navigation {
-    background-color: white;
+    background-color: transparent;
   }
   .header-style-1 .navbar-header, .header-style-2 .navbar-header, .header-style-3 .navbar-header {
-    margin-top: 15px;
+    margin-top: 5px;
   }
   .header-style-1 #navbar, .header-style-2 #navbar, .header-style-3 #navbar {
     margin-right: 235px;
@@ -923,14 +923,14 @@ button:focus {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) { /* nav sa taas */
   .header-style-1 #navbar > ul > li > a, .header-style-2 #navbar > ul > li > a, .header-style-3 #navbar > ul > li > a {
     font-size: 16px;
-    padding: 25px 25px; /* nav size*/
+    padding: 25px 23px; /* nav size*/
     text-transform: capitalize;
   }
   .header-style-1 #navbar, .header-style-2 #navbar, .header-style-3 #navbar {
-    margin-right: 245px;
+    margin-right: 0px;
   }
 }
 
@@ -1225,7 +1225,7 @@ button:focus {
 }
 
 .header-style-2 .sticky-header, .header-style-3 .sticky-header {
-  background-color: white; /* nav */ 
+  background-color: transparent; /* nav */ 
 }
 
 
@@ -2476,7 +2476,7 @@ button:focus {
 1.1 footer-area start
 ===========================*/
 .footer-area {
-    background: white;
+    background: black;
     padding: 10px 10px;
 }
 .footer-menu ul{
@@ -2513,7 +2513,7 @@ button:focus {
 }
 .footer-sub p, .footer-sub span{
  font-size:14px;
- color:#333;
+ color:#c6bcbc;
 }
 .contact-item  .section-title h2{
     margin-bottom: 100px;
@@ -2626,7 +2626,7 @@ button:focus {
 }
 .testimonial-area-2 .testimonial-content{
   background: none;
-  border:1px solid rgba(102,102,102,.3);
+  border:0px solid rgba(102,102,102,.3);
 }
 .testimonial-area-2 .testimonial-content:before {
     border-color: #F5F5DC  transparent transparent transparent;
