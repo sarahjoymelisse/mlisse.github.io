@@ -142,7 +142,7 @@ button:focus {
 }
 
 .back-to-top:hover {
-  background-color: #fa5c5d;
+  background-color: #d09090;
 }
 
 .back-to-top i {
@@ -383,7 +383,7 @@ button:focus {
 
 
 .theme-btn, .theme-btn-s2 {
-  color: #fa5c5d;
+  color: #d09090;
   font-weight: 500;
   padding: 15px 27px 12px;
   border: 0;
@@ -2545,7 +2545,7 @@ button:focus {
   color: #990000;
 }
 .page-wrapper-2{
-  background: #fff;
+  background: #000;
 }
 .about-area-2 {
     background: #202020;
@@ -3146,7 +3146,7 @@ color: #fff;
 
 .pagination-wrapper .pg-pagination .active a,
 .pagination-wrapper .pg-pagination li a:hover {
-  background: #fa5c5d;
+  background: #990000;
   color: #fff;
 }
 
@@ -3241,7 +3241,7 @@ color: #fff;
 }
 
 .blog-pg-section .entry-meta li a {
-  color: #fa5c5d;
+  color: #d09090;
 }
 
 .blog-pg-section .entry-meta img {
@@ -3283,7 +3283,7 @@ color: #fff;
 
 .blog-pg-section .details .read-more {
   font-weight: 500;
-  color: #fa5c5d;
+  color: #d09090;
   text-transform: uppercase;
 }
 
