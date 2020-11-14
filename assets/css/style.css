@@ -557,7 +557,7 @@ button:focus {
     font-size: 17px;
     font-size: 1.13333rem;
     font-weight: 400;
-    color: #fa5c5d; /* nav bar font color */
+    color: #d09090; /* nav bar font color */
     padding: 40px 16px;
     text-transform: uppercase;
   }
