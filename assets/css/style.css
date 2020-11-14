@@ -509,7 +509,7 @@ button:focus {
 }
 
 .site-header .navigation {
-  background-color: #fa5c5d;
+  background-color: transparent;
   margin-bottom: 0;
   border: 0;
   -webkit-border-radius: 0;
@@ -936,7 +936,7 @@ button:focus {
 
 @media (max-width: 991px) {
    .header-style-2 .navigation{
-    background-color: #fff;
+    background-color: transparent;
   }
   .header-style-1 .navigation .container, .header-style-2 .navigation .container, .header-style-3 .navigation .container {
     padding: 10px 10px;
