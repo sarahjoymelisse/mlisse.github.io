@@ -25,14 +25,14 @@ body {
   transform-origin: -10vw;
 }
 .firefly::before {
-  background:#ffbec2;
-  opacity: 0.4;
+  background:#D8BFD8;
+  opacity: 0;
   animation: drift ease alternate infinite;
 }
 .firefly::after {
-  background: #ffced1;
+  background: #D8BFD8;
   opacity: 0;
-  box-shadow: 0 0 0vw 0vw #ff5d68;
+  box-shadow: 0 0 0vw 0vw #D8BFD8;
   animation: drift ease alternate infinite, flash ease infinite;
 }
 
@@ -1322,10 +1322,10 @@ body {
 @keyframes flash {
   0%, 30%, 100% {
     opacity: 0;
-    box-shadow: 0 0 0vw 0vw yellow;
+    box-shadow: 0 0 0vw 0vw #ffdf80;
   }
   5% {
     opacity: 1;
-    box-shadow: 0 0 2vw 0.4vw yellow;
+    box-shadow: 0 0 2vw 0.4vw #ffdf80;
   }
 }
