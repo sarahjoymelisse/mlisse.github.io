@@ -25,14 +25,14 @@ body {
   transform-origin: -10vw;
 }
 .firefly::before {
-  background:#be8e9c;
+  background:#aec6cf;
   opacity: 0;
   animation: drift ease alternate infinite;
 }
 .firefly::after {
-  background: #be8e9c;
+  background: #aec6cf;
   opacity: 0;
-  box-shadow: 0 0 0vw 0vw #be8e9c;
+  box-shadow: 0 0 0vw 0vw #aec6cf;
   animation: drift ease alternate infinite, flash ease infinite;
 }
 
